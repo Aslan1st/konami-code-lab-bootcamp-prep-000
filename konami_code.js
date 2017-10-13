@@ -8,7 +8,7 @@ document.body.addEventListener('keydown', function(e)){
 }
 
 function init(){
-  
+
   let index = correct.length - 1
 
 if (correct[index] != code[index]) {
@@ -22,5 +22,3 @@ console.log('You did it!')
 correct = []
   }
 }
-  
-
