@@ -18,7 +18,7 @@ if ((code.length == correct.length) && code.every(function(element, index) {
     return element === correct[index];
 }))
 {
-console.log('You did it!')
+alert('You did it!')
 correct = []
   }
 }
