@@ -23,3 +23,5 @@ console.log('You did it!')
 correct = []
   }
 }
+
+var 'konami code' = correct
