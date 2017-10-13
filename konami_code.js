@@ -10,8 +10,8 @@ document.body.addEventListener('keydown', function(e){
      correct.push(e.which)
    } else if (correct[index] != code[index]) {
      correct = []
-} 
-if (correct[index] === code[index]){
+}
+if (correct === code){
 console.log('You did it!')
   }
 })
