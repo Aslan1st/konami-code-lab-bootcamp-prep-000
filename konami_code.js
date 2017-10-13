@@ -7,7 +7,7 @@ document.body.addEventListener('keydown', init)
 
 function init(){
 function keyDownHandler(e){
-  const key = parseInt(e.location)
+  const key = parseInt(e.detail||e.location)
   correct.push(key)
 
   let index = correct.length - 1
