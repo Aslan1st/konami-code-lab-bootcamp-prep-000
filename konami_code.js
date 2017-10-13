@@ -24,4 +24,4 @@ correct = []
   }
 }
 
-var 'konami code' = correct
+
