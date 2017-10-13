@@ -4,8 +4,9 @@ var correct = []
 
 document.body.addEventListener('keydown', function(e){
 init()
-if correct === code;
+if (correct === code){
 console.log('You did it!')
+}
   }
 
 function init() {
