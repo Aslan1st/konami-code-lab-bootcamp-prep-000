@@ -5,7 +5,7 @@ var correct = []
 document.body.addeventlistener('keydown', function(e){
   do {correct.push(e.which)
   }
-  while (init())
+  while (`${init()}`)
 })
 
 function init() {
