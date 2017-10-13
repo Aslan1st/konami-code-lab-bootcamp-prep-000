@@ -5,6 +5,13 @@ var correct = []
 document.body.addEventListener('keydown', function(e){
   const key = parseInt(e.detail || e.which)
   correct.push(key)
+  if ((code.length == correct.length) && code.every(function(element, index) {
+      return element === correct[index];
+  }))
+  {
+  console.log('You did it!')
+  correct = []
+} else
   init()
 })
 
