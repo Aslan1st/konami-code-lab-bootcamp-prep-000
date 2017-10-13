@@ -10,7 +10,7 @@ function init(){
 }
 
 function keyDownHandler(e){
-  const key = parseInt(e.detail||e.location)
+  const key = parseInt(e.detail||e.location||e.which)
   correct.push(key)
 
   let index = correct.length - 1
