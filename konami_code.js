@@ -2,11 +2,15 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 var correct = []
 
-document.body.addEventListener('keydown', innitiate(e){
+document.body.addEventListener('keydown', function(e){
+function dotoE(Anything){
+  anything(e)
+}
+dotoE(init)
 if (correct === code){
 console.log('You did it!')
-}
-  })
+  }
+})
 
 function init() {
 let index = correct.length - 1
