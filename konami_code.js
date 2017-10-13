@@ -8,15 +8,13 @@ function dotoE(Anything){
 
 document.body.addEventListener('keydown', function(e){
 
-dotoE(init)
+  let index = correct.length - 1
+   if (correct[index] === code[index]){
+     correct.push(e.which)
+   } else correct = []
+   
 if (correct === code){
 console.log('You did it!')
   }
 })
 
-function init() {
-let index = correct.length - 1
- if (correct[index] === code[index]){
-   correct.push(e.which)
- } else correct = []
-}
