@@ -7,7 +7,7 @@ init()
 if (correct === code){
 console.log('You did it!')
 }
-  }
+  })
 
 function init() {
 let index = correct.length - 1
