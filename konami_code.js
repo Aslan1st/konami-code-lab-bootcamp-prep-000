@@ -11,10 +11,11 @@ document.body.addeventlistener('keydown', function(e){
 function init() {
 
   while (correct.length < code.length){
-
+    let i = 0
+    
     if (code[i] === correct[i]){
 
-    for (let i = 0; i < correct.length; i++){
+    for (i; i < correct.length; i++){
 
       code[i] === correct[i]
   }
