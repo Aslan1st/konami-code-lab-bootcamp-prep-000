@@ -5,6 +5,7 @@ var correct = []
 document.body.addEventListener('keydown', init)
 
 
+
 function init(e){
   const key = parseInt(e.detail || e.which)
   correct.push(key)
