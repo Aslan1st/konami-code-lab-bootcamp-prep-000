@@ -7,9 +7,9 @@ document.body.addEventListener('keydown', function(e){
   let index = correct.length - 1
    if (correct[index] === code[index]){
      correct.push(e.which)
-   } else correct = []
-
-if (correct === code){
+   } else if (correct[index] != code[index]) {
+     correct = []
+} else if (correct === code){
 console.log('You did it!')
   }
 })
