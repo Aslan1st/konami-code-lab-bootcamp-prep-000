@@ -19,6 +19,7 @@ function init() {
       code[i] === correct[i]
   }
   conosole.log('You did it!')
-}  else {
+}  else 
   false
+}
 }
