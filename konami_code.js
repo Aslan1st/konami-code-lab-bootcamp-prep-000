@@ -8,8 +8,9 @@ document.body.addEventListener('keydown', function(e){
 
   if (correct[index] === code[index]){
      correct.push(e.which)
+     
    } else if (correct[index] != code[index]) {
-     correct = []
+     correct = [];
 }
 if ((code.length == correct.length) && code.every(function(element, index) {
     return element === correct[index];
