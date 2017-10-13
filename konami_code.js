@@ -13,4 +13,4 @@ let index = correct.length - 1
  if (correct[index] === code[index]){
    correct.push(e.which)
  } else (correct = [])
-}  
+}
