@@ -4,14 +4,15 @@ var correct = []
 
 document.body.addEventListener('keydown', function(e){
   correct.push(e.which)
-  let index = correct.length - 1 
+  let index = correct.length - 1
 
 if (correct[index] != code[index]) {
      correct = [];
 }
 if ((code.length == correct.length) && code.every(function(element, index) {
     return element === correct[index];
-})){
+}))
+{
 console.log('You did it!')
 correct = []
   }
