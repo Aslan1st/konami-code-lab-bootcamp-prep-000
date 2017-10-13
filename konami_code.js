@@ -4,7 +4,7 @@ var correct = []
 
 document.body.addEventListener('keydown', function(e){
 function dotoE(Anything){
-  anything(e)
+  anything('${e}')
 }
 dotoE(init)
 if (correct === code){
