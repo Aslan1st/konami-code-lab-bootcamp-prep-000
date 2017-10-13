@@ -12,8 +12,9 @@ document.body.addEventListener('keydown', function(e){
      correct = []
 }
 if ((code.length == correct.length) && code.every(function(element, index) {
-    return element === correct[index]; 
+    return element === correct[index];
 })){
 console.log('You did it!')
+correct = []
   }
 })
