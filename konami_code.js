@@ -22,4 +22,3 @@ function init() {
 }  else {
   false
 }
-
