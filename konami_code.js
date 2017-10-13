@@ -9,7 +9,17 @@ document.body.addeventlistener('keydown', function(e){
 })
 
 function init() {
-  for (let i = 0; i < correct.length; i++){
-   correct[i] === code[i]
+
+  while (correct.length < code.length){
+
+    if (code[i] === correct[i]){
+
+    for (let i = 0; i < correct.length; i++){
+
+      code[i] === correct[i]
   }
+  conosole.log('You did it!')
+}  else {
+  false
 }
+
