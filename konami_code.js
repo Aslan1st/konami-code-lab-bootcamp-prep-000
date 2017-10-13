@@ -5,8 +5,8 @@ var correct = []
 document.body.addEventListener('keydown', init)
 
 
-
-function init(e){
+function init(){
+function keyDownHandler(e){
   const key = parseInt(e.location)
   correct.push(key)
 
@@ -22,4 +22,5 @@ if ((code.length == correct.length) && code.every(function(element, index) {
 alert('You did it!')
 correct = []
   }
+}
 }
